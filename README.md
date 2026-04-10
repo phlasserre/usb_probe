@@ -2,7 +2,9 @@
 
 Efficiently assess the **real** capacity and R/W speeds of USB flash drives on macOS.
 
-`usb_probe` is a Python 3 CLI tool for macOS users who need to verify whether a USB flash drive’s advertised capacity is genuine and how healthy it is across its address space.
+- `usb_probe` is a Python 3 CLI tool for macOS users who need to verify whether a USB flash drive’s advertised capacity is genuine and how healthy it is across its address space.
+- it is a macOS-oriented tool inspired by `f3probe`, providing a similar capacity-checking workflow for USB flash drives on Apple systems.
+- If you are looking for an F3 / f3probe-like tool for macOS to verify real USB flash drive capacity, `usb_probe` provides a dedicated Python 3 implementation tailored for macOS raw disks.
 
 ## Features
 
